@@ -2,9 +2,73 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>HTML5 e CSS3</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <title>HTML5 e CSS3</title>    
     </head>
     <body>
-        <p>Minha primeira página</p>
+        <nav  class="cabeca">
+            <h1>RP Clean Tec</h1>
+            <ul>
+                <li>
+                    <a href="#servicos">SERVIÇOS</a>
+                    <a href="#cliente">CLIENTES</a>
+                    <a href="#contato">CONTATO</a>
+                </li>    
+            </ul>
+        </nav>
+        <header>
+            <h2>Minha Página</h2>
+            <p>
+               Oferecemos limpeza completo do seu computador ou console.
+            </p>
+        </header>
+        <section class="trabalho" id="servicos">
+            <h2>SERVIÇOS</h2>
+            <p>
+                Limpeza de console troca da pasta
+                 térmica e limpeza total do aparelho
+            </p>
+            <p>
+                Fazemos backup, formatamos e limpamos computadores e notebooks
+            </p>
+            <div class="container">
+           <p> 
+            <img src="./img/ps3.png" alt="ps3"> 
+            <img src="./img/ps4.png" alt="ps4"> 
+            <img src="./img/360.png" alt="360"> 
+            <img src="./img/xboxone.png" alt="xboxone"> 
+            </p>
+          </p>
+            </div>
+        </section>
+        
+        <section class="cli1" id="cliente">
+            <h2>CLIENTES</h2>
+            <div>
+                <p>
+                Nosso clientes ficaram muito satisfeitos com nosso serviço
+                qualidade em primeiro lugar 
+                </p>
+            </div>
+            <div> 
+                <img src="img/emuladores-capa.jpg" width="300px">
+            </div>
+
+            <div> 
+                <img src="img/consoles-e-controles-definem.jpg" width="300px">
+            </div>
+           
+        </section>
+        
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos.
+            </p>
+        </section>
+        <footer>
+            <p>Desenvolvido por Carlos Rodrigo</p>
+        </footer>
     </body>
 </html>
