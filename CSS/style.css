@@ -8,17 +8,24 @@ body{
     color: slateblue;
 }
 
+h2{
+    text-align: center;
+}
+
 .trabalho{
-    background-color: yellow;
+    background-color: blanchedalmond ;
     width: 100%;
-    height: 1300px; 
+    height: 600px; 
+    padding: 50px;
+    /* text-align: center; */
 }
 .container img{
-    /* background-image: url(../img/ps3.png); */
-    max-width:200px;
+    max-width:300px;
     max-height:150px;
     width: auto;
     height: auto;
+    /* padding-left: 200px;
+    padding-right: 200px; */
 }
 
 .cabeca{
@@ -29,9 +36,19 @@ body{
 
 .cli1{
    background-image: url(../img/Smartphone-PC-Console-PDV.jpg);
-   background-size: 100%;
    background-position:center ;
+   width: 100%;
+   height: 1000px;
    font-size: 25px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: Cambria, serif;
    color: cornsilk;
+
 }
+
+/* .cli img{
+    background-image: url(../img/Smartphone-PC-Console-PDV.jpg);
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+} */
